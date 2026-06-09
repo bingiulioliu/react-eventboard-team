@@ -1,3 +1,4 @@
+
 import './App.css';
 import EventList from './components/EventList.jsx';
 
@@ -16,6 +17,7 @@ function App() {
       </main>
     </>
   );
+
 }
 
 export default App;
