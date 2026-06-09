@@ -11,13 +11,13 @@ function App() {
 
   return <>
     {/* header principale */}
-      <header>
-        <h1>EventBoard</h1>
-        <p>Scopri tutti gli eventi disponibili</p>
-      </header>
-   {/* counter eventi */}
-      <p>Eventi trovati: {events.length}</p>
-    
+    <header>
+      <h1>EventBoard</h1>
+      <p>Scopri tutti gli eventi disponibili</p>
+    </header>
+    {/* counter eventi */}
+    <p>Eventi trovati: {events.length}</p>
+
     <div className='d-flex justify-content-center align-items-center mb-4'>
       <label htmlFor="filter" className='me-3' >
         filtra Per Categoria
@@ -33,9 +33,9 @@ function App() {
     </div>
     <p className='text-center' mt-4>Categoria selezionata {selectCategory}</p>
     {/* contenitore principale */}
-     <main>
-        <EventList />
-      </main>
+    <main>
+      <EventList />
+    </main>
   </>
 }
 
