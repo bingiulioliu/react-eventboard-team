@@ -1,7 +1,9 @@
+import EventCard from "./EventCard.jsx";
+
 function EventList() {
   return (
-    <div>
-      <p>Lista eventi</p>
+    <div className="container">
+      <EventCard />
     </div>
   );
 }
